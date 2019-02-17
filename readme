@@ -1,0 +1,10 @@
+This simple program recusively collets SNMP info from cisco 
+devices and analizes neighbors to fill info in trhee files:
+
+IP list: totalIP
+preffered IP (loopbacks): selected
+Interfaces IP:  interfacesIP (with masks)
+
+Please run the script with parameters (it also has a small help) 
+
+python ./pyget_v_2_1.py -i 192.168.0.2 -c public`
